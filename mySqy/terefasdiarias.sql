@@ -1,0 +1,1 @@
+SELECT * FROM tarefasdiarias.categoria_tarefa;
