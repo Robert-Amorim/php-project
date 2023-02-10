@@ -18,6 +18,7 @@ if(isset($_GET['erro'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/login.css">
     <title>Sistema de Tarefas</title>
 </head>
 <body>
@@ -27,14 +28,15 @@ if(isset($_GET['erro'])){
         <div>
             <h3>Login</h3>
         </div>
-        
+        <br>
         <div>
+            <label for="login">E-mail:</label>            
             <input type="text" name="login" id="login">
-            <label for="login">E-mail</label>            
         </div>
+        <br>
         <div>
+            <label for="senha">Senha:</label>   
             <input type="password" name="senha" id="senha">
-            <label for="senha">Senha</label>   
         </div>
         <div>
             <span id="error"><?php echo $erro; ?></span> <br>

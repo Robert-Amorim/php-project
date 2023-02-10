@@ -3,7 +3,7 @@ $servidor   = "localhost";
 $senha      = "";
 $usuario    = "root";
 $banco      = "tarefasdiarias";
-$site       = "localhost/tarefasdiarias/";
+$site       = "localhost/php-project/";
 $con = mysqli_connect($servidor,$usuario,$senha,$banco);
 mysqli_set_charset ( $con , 'utf8' );
 
